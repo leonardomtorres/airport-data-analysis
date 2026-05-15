@@ -72,18 +72,18 @@ cd airport-data-analysis
 2. Instale as dependências
 
 pip install -r requirements.txt
-3. Suba o banco de dados
+3. Suba o banco de dados  
 
-docker-compose up -d
-4. Rode o pipeline
+docker-compose up -d  
+4. Rode o pipeline  
 
-cd etl
-python pipeline.py
-5. Para rodar automaticamente a cada 30 minutos
+cd etl  
+python pipeline.py  
+5. Para rodar automaticamente a cada 30 minutos  
 
-python scheduler.py
+python scheduler.py  
 
-Estrutura do projeto
+Estrutura do projeto  
 
 airport-data-analysis/
 ├── docker-compose.yml     
