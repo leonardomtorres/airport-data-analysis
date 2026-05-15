@@ -74,7 +74,9 @@ cd airport-data-analysis
 pip install -r requirements.txt  
 3. Suba o banco de dados  
 
-docker-compose up -d  
+```bash
+docker-compose up -d
+```
 
 
 **4. Rode o pipeline**
