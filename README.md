@@ -67,8 +67,7 @@ PostgreSQL exports/
 ```bash
 git clone https://github.com/leonardomtorres/airport-data-analysis.git
 cd airport-data-analysis
-
-
+```
 
 2. Instale as dependências
 
