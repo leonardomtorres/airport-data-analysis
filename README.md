@@ -75,14 +75,18 @@ pip install -r requirements.txt
 3. Suba o banco de dados  
 
 docker-compose up -d  
-4. Rode o pipeline  
 
-cd etl  
-python pipeline.py  
-5. Para rodar automaticamente a cada 30 minutos  
 
-python scheduler.py  
+**4. Rode o pipeline**
+```bash
+cd etl
+python pipeline.py
+```
 
+**5. Para rodar automaticamente a cada 30 minutos**
+```bash
+python scheduler.py
+```
 
 
 ## Estrutura do projeto
