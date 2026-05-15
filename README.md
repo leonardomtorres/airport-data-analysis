@@ -71,7 +71,7 @@ cd airport-data-analysis
 
 2. Instale as dependências
 
-pip install -r requirements.txt
+pip install -r requirements.txt  
 3. Suba o banco de dados  
 
 docker-compose up -d  
