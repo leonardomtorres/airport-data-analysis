@@ -103,12 +103,22 @@ airport-data-analysis/
 ```
 
 
+---
 
-Resultado
-A cada execução o pipeline captura entre 6.000 e 9.000 voos ativos de mais de 90 países e gera um resumo com:
+## Resultado
 
-Total de voos por país
-Média de altitude e velocidade
+A cada execução o pipeline captura entre **6.000 e 9.000 voos ativos** de mais de **90 países** e gera um resumo com:
+
+- Total de voos por país
+- Média de altitude e velocidade
+- Voos no ar vs em solo
+
+---
+
+## Autor
+
+**Leonardo Torres**  
+[LinkedIn](https://www.linkedin.com/in/leonardomarchettitorres) • [GitHub](https://github.com/leonardomtorres)
 Voos no ar vs em solo
 Autor
 Leonardo Torres
