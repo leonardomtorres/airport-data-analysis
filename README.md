@@ -83,20 +83,24 @@ python pipeline.py
 
 python scheduler.py  
 
-Estrutura do projeto  
 
+
+## Estrutura do projeto
+
+```
 airport-data-analysis/
-├── docker-compose.yml     
-├── requirements.txt       
+├── docker-compose.yml
+├── requirements.txt
 ├── sql/
-│   └── init.sql           # cria as tabelas automaticamente
+│   └── init.sql           
 ├── etl/
-│   ├── extract.py         # busca os dados na API
-│   ├── transform.py       # limpa e agrega os dados
-│   ├── load.py            # salva no banco e exporta CSV
-│   ├── pipeline.py        # orquestra o fluxo completo
-│   └── scheduler.py       # execução automática
-└── exports/               # CSVs gerados para o Power BI
+│   ├── extract.py         
+│   ├── transform.py       
+│   ├── load.py            
+│   ├── pipeline.py        
+│   └── scheduler.py       
+└── exports/               
+```
 
 
 
