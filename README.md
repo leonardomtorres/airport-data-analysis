@@ -11,24 +11,27 @@ A ideia surgiu da curiosidade de entender o volume e o comportamento do tráfego
 Todo o processo roda de forma automatizada a cada 30 minutos.
 
 ---
-```
+
 ## Arquitetura
 
+```
 OpenSky Network API
-│
-▼
-extract.py → captura os voos em tempo real
-│
-▼
-transform.py → limpa, tipifica e converte os dados
-│
-▼
-load.py → salva no PostgreSQL e exporta CSV
-│
-▼ 
-PostgreSQL exports/
+        │
+        ▼
+   extract.py        → captura os voos em tempo real
+        │
+        ▼
+  transform.py       → limpa, tipifica e converte os dados
+        │
+        ▼
+    load.py          → salva no PostgreSQL e exporta CSV
+        │
+   ┌────┴────┐
+   ▼         ▼
+PostgreSQL  exports/
 (3 camadas) (Power BI)
 ```
+
 
 
 ### Camadas do banco de dados
