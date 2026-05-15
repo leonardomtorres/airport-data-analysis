@@ -119,6 +119,6 @@ A cada execução o pipeline captura entre **6.000 e 9.000 voos ativos** de mais
 
 **Leonardo Torres**  
 [LinkedIn](https://www.linkedin.com/in/leonardomarchettitorres) • [GitHub](https://github.com/leonardomtorres)
-Voos no ar vs em solo
+
 Autor
 Leonardo Torres
